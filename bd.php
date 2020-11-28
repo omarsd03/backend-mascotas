@@ -1,8 +1,8 @@
 <?php
 
-    $contraseña = '';
+    $contraseña = 'omar';
     $usuario = 'root';
-    $db = 'mascotas';
+    $db = 'bdmascotas';
   
     try {
         return new PDO('mysql:host=localhost;dbname=' . $db, $usuario, $contraseña);
